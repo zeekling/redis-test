@@ -8,5 +8,5 @@ redis 学习详解。
 - [理解Redis的内存](https://www.zeekling.cn/articles/2020/07/04/1593860561539.html)
 - [Redis 集群详解](https://www.zeekling.cn/articles/2020/07/21/1595342026052.html)
 - [Redis Sentinel哨兵机制](https://www.zeekling.cn/articles/2020/07/21/1595343778998.html)
-
+- [Redis 慢查询分析](https://www.zeekling.cn/articles/2020/07/23/1595493094855.html)
 
