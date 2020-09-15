@@ -55,6 +55,17 @@ public class RedisPoolTest {
     }
 
     @Test
+    public void testLong(){
+        System.out.println("--------------begin test long--------------------");
+        double score = Math.E;
+        System.out.println(score);
+        jedis.set("score", String.valueOf(score));
+        double res = Double.parseDouble(jedis.get("score"));
+        System.out.println(res);
+        System.out.println("--------------end test long--------------------");
+    }
+
+    @Test
     public void testMap() {
         System.out.println("--------------begin test map--------------------");
         //添加数据
