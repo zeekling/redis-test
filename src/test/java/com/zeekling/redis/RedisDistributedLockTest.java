@@ -36,7 +36,7 @@ public class RedisDistributedLockTest {
       }
     };
     System.out.println("------------------开始--------------");
-    for (int i = 0; i < 100; i++) {
+    for (int i = 0; i < 10; i++) {
       Thread t = new Thread(runnable);
       t.start();
     }
