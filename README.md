@@ -2,8 +2,8 @@
 
 redis 学习详解。
 
-## 思维导图
-![思维导图](https://pan.zeekling.cn/zeekling/redis/Redis%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93.png)
+[思维导图](https://www.zeekling.cn/articles/2021/11/07/1636295639346.html)
+
 
 ## 相关文章
 
