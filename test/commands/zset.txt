@@ -1,0 +1,12 @@
+del books_zset
+zadd books_zset 9.0 "think in java"
+zadd books_zset 8.9 "java concurrency"
+zadd books_zset 8.6 "java cookbook"
+zrange books_zset 0 -1
+zrevrange books_zset 0 -1
+zcard books_zset
+zscore books_zset "java concurrency"
+zrank books_zset "java concurrency"
+zrangebyscore books_zset -inf 8.91 withscores
+zrem books_zset "java concurrency"
+zrange books_zset 0 -1
