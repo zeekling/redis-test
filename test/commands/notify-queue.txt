@@ -1,0 +1,9 @@
+rpush notify-queue apple banana pear
+llen notify-queue
+lpop notify-queue
+llen notify-queue
+lpop notify-queue
+llen notify-queue
+lpop notify-queue
+llen notify-queue
+lpop notify-queue
